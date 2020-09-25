@@ -2,7 +2,8 @@
 
 ## Building the image
 ```
-docker build -f Dockerfile -t docker-kafka .
+docker build -f Dockerfile -t kafka:2.6 .
+docker push kafka:2.6
 ```
 
 ## Configuring the image
